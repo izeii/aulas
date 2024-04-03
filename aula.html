@@ -6,10 +6,10 @@
 
 </head>
 
-<body style="background-color:lightgray">
+<body style="background-color:rgb(0, 0, 0)">
     <header>
         <h2>Guilherme</h2>
-        <img src="Sample_User_Icon.png" alt="única foto" width="300">
+        <img src="man-user-circle-icon.webp" alt="foto" width="300">
     </header>
     <main>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus rerum obcaecati
@@ -17,14 +17,16 @@
             praesentium
             vitae! Iure modi ullam aliquid nesciunt.</p>
 
-        <h2>Habilidades</h2>
+        <div class="habilidades">
+            <h2 class="habilidades">Habilidades</h2>
+        </div>
         <ul>
-            <li>Imortal no Valorant top 2000</li>
-            <li>Finalista regional de futsal sub 14</li>
-            <li>Surreal no Fortnite</li>
+            Imortal no Valorant top 2000</li><br>
+            Finalista regional de futsal sub 14</li><br>
+            Surreal no Fortnite</li><br>
         </ul>
         <h2>Experiências Passadas</h2>
-        <table border="4">
+        <table border="4" class="tabela">
             <thead>
                 <th>Nome da empresa</th>
                 <th>Cargo</th>
@@ -54,19 +56,16 @@
                 </tr>
             </tfoot>
         </table>
-        <h2>Contato</h2>
+        <h2><span>Me</span>  Contate</h2>
         <form action="" method="get">
-            <label for="email"> Email</label>
+            <input type="text" placeholder="Nome" id="nome" name="nome">    
             <br>
-            <input type="email" placeholder="Insira seu Email" id="email" name="email">
+            <input type="email" placeholder="Email" id="email" name="email">
             <br>
-            <label for="Mensagem"> Mensagem</label>
+            <input type="tel" placeholder="Número de Telefone"><br>
+            <input type="text" placeholder="Titulo" id="titulo" name="titulo">
             <br>
-            <textarea name="Mensagem" id="" cols="30" rows="10"></textarea><br>
-            <label for="dob"> Data de nascimento</label><br>
-            <input type="date" name="dob"><br>
-            <label for="telefone">Telefone</label>
-            <input type="tel" placeholder="(00)00000-0000"><br>
+            <textarea name="Mensagem" placeholder="Mensagem" id="" cols="30" rows="10"></textarea><br>
             <label for="radio">Qual é melhor?</label><br>
             <input type="radio" id="html" name="fav_beb" value="Nescau">
             <label for="nescau">Nescau</label><br>
